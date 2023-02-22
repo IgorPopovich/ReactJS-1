@@ -2,7 +2,7 @@
     text-align: center;
     margin-top: 30px;
     border: none;
-    border-radius: 8px;
+    border-radius: 3px;
     background-color: #ffffff;
     border: 1px solid #aec5cc;
     -webkit-box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.75);
@@ -11,7 +11,8 @@
 }
 
 .statistics .title {
-    font-size: 25px;
+    text-transform: uppercase;
+    font-size: 23px;
     font-family: sans-serif;
     font-weight: 700;
     color: #161616;
@@ -30,7 +31,7 @@
     list-style-type: none;
     text-align: center;
     padding: 10px 15px 10px 15px;
-    background-color: #00363d;
+    /*background-color: #00363d;*/
 }
 .statistics .stat-list .item .label {
     font-size: 16px;
