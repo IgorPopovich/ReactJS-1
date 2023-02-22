@@ -1,0 +1,64 @@
+.friend-list li {font-size: 15px;}
+
+.friend-list {
+    padding-inline-start: 0px;
+    width: 30%;
+    margin-top: 30px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #aec5cc;
+    border: 1px solid #aec5cc;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
+.friend-list .item .status {
+    width: 5px;
+    height: 5px; 
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.friend-list .item {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    margin-top: 8px;
+    display: flex;
+    border-radius: 8px;
+    width: 95%;
+    background-color: #ffffff;
+    border: 1px solid #aec5cc;
+    vertical-align: middle;
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+}
+
+.friend-list .item p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.friend-list .item img, p {
+    margin-left: 20px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.friend-list .item .avatar {
+    width: 60px;
+    height: 60px; 
+}
