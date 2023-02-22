@@ -10,7 +10,7 @@
     box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.75);
 }
 
-.statistics .title {
+.title {
     text-transform: uppercase;
     font-size: 23px;
     font-family: sans-serif;
@@ -18,13 +18,12 @@
     color: #161616;
 }
 
-.statistics .stat-list {
+.list {
     display: flex;
     padding-inline-start: 0px;
     margin: 0;
 }
-
-.statistics .stat-list .item {
+.item {
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -33,14 +32,14 @@
     padding: 10px 15px 10px 15px;
     /*background-color: #00363d;*/
 }
-.statistics .stat-list .item .label {
+.label {
     font-size: 16px;
     font-family: sans-serif;
     font-weight: normal;
     color: #eeeeee;
 }
 
-.statistics .stat-list .item .quantity {
+.quantity {
     font-size: 18px;
     font-family: sans-serif;
     font-weight: 700;
