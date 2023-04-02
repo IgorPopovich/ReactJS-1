@@ -5,11 +5,10 @@ import { randomColor } from '../../utils'
 const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
-        <h2 className={css.title}>{title}</h2>
+        {title && <h2 className={css.title}>{title}</h2>}
         <ul className={css.list}>
             {stats.map((item, i) => {
-              let color = randomColor()
-                return <li className={css.item} style={{ backgroundColor: `#${color}` }} key={i}>
+                return <li className={css.item} style={{ backgroundColor: `#${randomColor()}` }} key={i}>
                         <span className={css.label}>{item.label}</span>
                         <span className={css.quantity}>{item.percentage}%</span>
                     </li>;
@@ -21,7 +20,7 @@ const Statistics = ({ title, stats }) => {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.array,
+  stats: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default Statistics;
